@@ -9,6 +9,17 @@ public class GameManager : Singleton<GameManager>
     [SerializeField] private Text _playerName;
     [SerializeField] private TextMeshProUGUI _TextMeshProUGUI;
 
+    public bool IsPlaying { get; set; }
+
+    protected override void Awake()
+    {
+        base.Awake();
+    }
+
+    private void Start()
+    {
+        IsPlaying = true;
+    }
 
     public void SetCharacter()
     {
@@ -18,5 +29,6 @@ public class GameManager : Singleton<GameManager>
             _playerName.text = DataManager.Instance.myName;
             _TextMeshProUGUI.text = DataManager.Instance.myName;
         }
+        IsPlaying = true;
     }
 }

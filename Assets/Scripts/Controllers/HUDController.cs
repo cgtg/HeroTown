@@ -15,9 +15,9 @@ public class HUDController : MonoBehaviour
 
     [SerializeField] private GameObject _characterChange;
 
-
     public void ShowChangeName()
     {
+        GameManager.Instance.IsPlaying = false;
         _nameChange.SetActive(true);
     }
 
@@ -40,6 +40,7 @@ public class HUDController : MonoBehaviour
 
     public void ShowChangeCharacter()
     {
+        GameManager.Instance.IsPlaying = false;
         _characterChange.SetActive(true);
     }
 
@@ -50,7 +51,7 @@ public class HUDController : MonoBehaviour
         GameManager.Instance.SetCharacter();
     }
 
-    public void ShowPeopleList()
+    public void ShowUserList()
     {
         _asidePanel.SetActive(true);
     }

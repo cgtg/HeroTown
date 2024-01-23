@@ -34,7 +34,7 @@ public class InteractController : MonoBehaviour
         {
             switch (type)
             {
-                case NPCType.Moonyungho:
+                case NPCType.Moonyungoh:
                     talkText.text = "TIL 작성 하셨나요?";
                     break;
                 case NPCType.Hanhyoseung:
