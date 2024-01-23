@@ -2077,6 +2077,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8734ad392d9bf346a2ac34f9922bd61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NPC:
+  - "\uD55C\uD6A8\uC2B9"
+  - "\uBB38\uC601\uC624"
+  - "\uC774\uD55C\uC194"
   curCharacter: 0
   myName: 
 --- !u!1 &1767571708
@@ -2151,7 +2155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1840669259
 RectTransform:
   m_ObjectHideFlags: 0
