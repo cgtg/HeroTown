@@ -1,12 +1,18 @@
-1. [프로젝트 소개](#HeroTown)  
-2. [게임 소개](#게임-소개)  
-3. [스크린샷](#스크린샷)
-
 # HeroTown
 Zep 클론코딩을 통해 유니티를 연습
 
 # 과제 진도
 구현은 선택요구사항까지 일단 모두 완성
+
+# 개발환경
+Unity 22.3.2f
+Visual Studio Community 2022
+
+# 개발 기간
+2024.01.21 ~
+
+# 개발인원
+개인개발
 
 # 스크린샷
 ![image](https://github.com/cgtg/HeroTown/assets/88172590/9a47d9ae-bd6c-41d7-b547-66068ef2d7cc)
@@ -22,3 +28,4 @@ Zep 클론코딩을 통해 유니티를 연습
 ![image](https://github.com/cgtg/HeroTown/assets/88172590/358bd63b-2f98-48db-9e91-608cd272d0fc)
 
 ![image](https://github.com/cgtg/HeroTown/assets/88172590/19fe3f4b-7d20-4e37-b736-53c3f8192063)
+
